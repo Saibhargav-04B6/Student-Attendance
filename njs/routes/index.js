@@ -1,0 +1,11 @@
+var express=require("express");
+var route=express.Router();
+const { getData, getDate,getDataById, postData ,postUser, getUser,postLogin} = require("../controllers/index");
+route.get('/data',getData);
+route.get('/date/:id',getDate);
+route.get('/data/user',getUser);
+route.get('/data/:id',getDataById);
+route.post('/attend',postData);
+route.post('/data/',postUser);
+route.post('/auth',postLogin);
+module.exports=route;

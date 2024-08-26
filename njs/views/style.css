@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(228, 238, 238);
+}
+.header{
+    display:flex;
+    justify-content: center;
+    background-color: #ddd;
+    margin:20px;
+}
+.users{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+    margin-top:20px;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: white;
+
+}
+th {
+    background-color: #f2f2f2;
+}
+.stdbtn{
+    display: flex;
+    justify-content: right;
+    gap:10px;
+}
+.nav{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(38, 100, 100);
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+}.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details
+{
+    padding:10px 10px 10px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.details input{
+    padding:10px;
+    width:80%;
+    border-radius:10px;
+}
+.logtitle
+{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+}
+.login button{
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.logindiv{
+    margin-top: 10%;
+    width: 30%;
+    background-color:rgb(38, 100, 100);
+    border-radius: 10px;
+    padding: 20px;
+}
+label{
+    color: white;
+}
